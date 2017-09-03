@@ -27,7 +27,14 @@ public class Repeat {
 				}
 			}
 		}
-		System.out.print(al);
+		if(al.isEmpty())
+		{
+		 System.out.println("No repeat numbers");
+		}
+		else
+		{
+		 System.out.print(al);
+		}
         sc.close();
 	}
 
